@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginSimple.Views.vThree"
+             Title="Registro">
+
+    <Grid RowDefinitions="Auto,Auto,Auto,Auto" ColumnDefinitions="*">
+        <Label Text="Registro Nuevo" 
+               HorizontalOptions="Center"
+               Grid.Row="0"/>
+        <Entry Placeholder="Ingrese su nombre"
+               x:Name="name"
+               Grid.Row="1"/>
+        <Entry Placeholder="Ingrese su contraseña"
+               x:Name="clave"
+               Grid.Row="2"
+                            />
+        <Button Text="Registraste"
+                Clicked="Button_Clicked"
+                Grid.Row="3"/>
+
+
+
+    </Grid>
+</ContentPage>
